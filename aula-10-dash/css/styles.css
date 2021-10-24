@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    background-color: #2a323a;
+    width: 20vw;
+}
+
+.menu h4{
+    color: grey;
+    padding-left: 10px;
+    text-transform: uppercase;
+    
+}
+.items-menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.items-menu li{
+    padding: 10px 0;
+}
+
+.menu li:hover{
+    background-color: rgb(15, 105, 223);
+}
+
+.items-menu .li-dash::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/dash.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+
+} 
+
+.container-lateral{
+    background-color: rgb(232, 233, 233);
+    width: 80vw;
+    height: 100%;
+}
+.tabs-principais{
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+.tabs-principais li{
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.tabs-principais li:hover{
+   color:rgb(15, 105, 223);
+   border-bottom: 2px solid rgb(15, 105, 223);;
+   cursor: pointer;
+}
+
+.items-menu .li-cliente::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/cliente.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+
+} 
+
+.items-menu .li-atendimento::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/tempo.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+
+} 
+
+.items-menu .li-estoque::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/estoque.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.items-menu .li-financ::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/financeiro.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.items-menu .li-map::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/mapa.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.items-menu .li-nota::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/nota.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.items-menu .li-rede::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/rede.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+
+.items-menu .li-relatorio::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/relatorio.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.items-menu .li-config::before{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;   
+    background-image: url("/aula-10-dash/image/config.png") ;
+    background-size: 20px;
+    margin-left: -30px;
+}
+
+.container-1{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.container-2{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-3{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-4{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-5{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-pai{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
+
+}
+
+.lado-lado{
+
+    width: 190px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    
+
+}
+
+.container-grande{
+    background-color: white;
+    width: 78vw;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    align-content: center;
+    align-items: center;
+   
+
+}
+
+@media (max-width: 992px){
+    .container-pai{
+      flex-direction: column;
+      width: 100%;
+  
+    }
+    .container-lateral{
+        width: 100%;
+    }
+    .container-grande{
+        flex-direction: column;
+       margin: auto;
+       
+    } 
+    .items-menu li{
+        padding: 10px 10px;
+    }
+    body{
+        flex-direction: column;
+        
+    }
+    .items-menu .icon::before{
+        background-image: none;
+    }
+    
+
+    .items-menu{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+      
+    }
+
+    .icon{
+        padding: 50px 50px;
+        
+    }
+    .menu{
+        width: 100%;
+        
+    }
+
+}

@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@,300,&,display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #001428;
+    box-sizing: border-box; 
+    
+}
+
+.custom-img{
+    position: relative;
+    top:10px;
+    left: -50px;
+}
+
+.imagem{
+    filter: invert(1) grayscale(1);
+   width: 22px;
+   height: 15.813;
+    
+}
+
+.logo{
+    filter: invert(1) grayscale(1);
+    height: 24px;
+    width: 118.5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.form-control{
+    line-height: 20px;
+    font-family: Montserrat;
+    background: #fff!important;
+    font-size: 13px;
+    width: 436.53px;
+    height: 45px;
+}
+.nav-item{
+    list-style-type: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #92c1e9
+    ;
+ }
+
+nav{
+    
+    display: flex;
+    padding: 1rem;
+    margin-left: 10px;
+    position: relative;
+    padding-top: 1rem;
+    margin-right: auto;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:white;
+}
+
+.img-menu{
+
+    position: relative;
+    bottom: 75px;
+    right: 430px;
+
+}
+
+.navbar-light .navbar-toggler {
+    
+   position: relative;
+    margin-bottom: 2px;
+    font-size: 30px;
+    color: none;
+    border-color: none;    
+    line-height: 0;
+}
+
+
+.icone{
+    font-family: Montserrat;
+    font-size: .75rem;
+    text-transform: none;
+    letter-spacing: 0;
+    color: white ;
+    margin: 0;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nav-menu{
+    color: white;
+    display:flex;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    justify-content: space-around ;
+    list-style-type: none;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: row;
+ 
+    
+  
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.info-item-menu-text{
+    font-size: 10px;
+    color: #ddc8b7;
+    display: flex;
+    align-items: center; 
+    margin-left: 1rem;
+    margin-right: 1,5rem;
+    
+    margin-bottom: 35px;   
+    padding-top: 1rem;
+    padding-bottom: 1px;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: row;
+
+}
+
+.nave{
+    font-weight: 300;
+    color: #ff554d;
+    font-size: 24px;
+   
+}
+
+.categoria{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin: auto;
+  
+}
+
+.navegue{
+   
+    margin-left: .25rem;
+    color: #fff;
+    font-weight: 00;
+    font-size: 14px;
+    line-height: 16.1px;
+    line-break: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: c;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    list-style-type: none;
+    text-align: center;
+  
+
+}
+
+
+
+
+.bateria{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+    align-items: center;
+}
+
+.preco{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+    align-items: center;
+    
+}
+.memoria{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+}
+
+.camera{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+}
+.conectividade{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+}
+
+.game{
+    height: 80px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid #082e53;
+    box-shadow: -6px -5px 8px rgb(49 49 49 / 55%);
+    padding-right: 0;
+    margin-right: 5px!important;
+}
+
+.footer-moto{
+    color: #010e1b;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.link-moto{
+    color: #001428;
+    text-decoration: none;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    font-family: Montserrat;
+    padding-top: 100px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.card-img-top{
+    margin-top: 50px;
+} 
+.card-text{
+    color: #92c1e9;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -10px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+p .card-preco{
+    color: #c4beb6;
+    text-decoration: line-through;
+    margin:0;
+    font-size: 12px!important;
+
+}
+strong{
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    
+  
+}
+span{
+    color: white;
+}
+
+.btn{
+width: 100%;
+height: 100%;
+}
+.botao-comprar {
+    padding: 0 15px;
+    position: absolute;
+    width: 120px!important;
+    transition: .4s;
+    top: 50%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    border-color: #ff554d;
+    background-color: #ff554d;
+    vertical-align: middle;
+    min-height: 2.5rem;
+    border-width: .05rem;
+    border-radius: .25rem;
+    border-style: solid;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: center;
+    position: absolute;
+    color: white;
+    display: none;
+  
+    
+    
+    
+}
+
+
+
+.btn:hover{
+    
+    color: white;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    display: block;
+
+}
+.botao-comprar::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;   
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    
+
+}
+
+.card:hover .botao-comprar{
+    display: block;
+    
+ 
+}
+.h-100 {
+    height: 0%!important;
+}
+.t-mini{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 18px;
+    color: #fff;
+    background: #001428;
+    border: 1px solid #fff;
+    border-radius: -5px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.card{
+    position: relative;
+    min-height: 254px;
+    margin-top: 20px;
+    background: #001428;
+    background-image: radial-gradient(circle closest-side,#153d65,#001428 95%);
+    border:none;
+    cursor: pointer;
+
+    
+}
+.compare-preco{
+    border-top: 1px solid #1b5185;
+    padding-top: 25px;
+    margin-top: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #92c1e9;
+    font-size: 14px;
+}
+
+#corBranco{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 15px;
+    font-family: Montserrat;
+    letter-spacing: 0;
+}
+.corLaranja{
+    font-weight: 300;
+    color: #ff554d;
+}
+
+.btn-branco{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0!important;
+    background: transparent;
+    text-transform: none;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 1;
+    min-height: 2.5rem;
+    box-sizing: border-box;
+    border-color: transparent;
+    overflow: visible;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    text-rendering: auto;
+    border-image: initial;
+   
+  
+}
+
+.btn-smart{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+    
+
+}
+
+.btn-padrao{
+    
+    margin: 0 40px 0 0;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    display: block;
+}
+
+#btn-motog{
+    color: #ff554d!important;
+    border: none;
+    border-bottom: 2px solid #ff554d;
+    background-color: transparent;
+}
+
+.layout-perfeito{
+    min-height: 405px;
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+
+   
+}
+.slide-layoutContainer{
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+   
+
+}
+.produto-container{
+    max-width: 300px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    border-radius: .5rem;
+   
+}
+
+.produto-sumario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .75rem;
+    padding-top: .5rem;
+ 
+}
+
+.motorola-new{
+    color: #fff;
+    width: 40%;
+    height: 213px;
+    margin: 20px 5% 26px;
+}
+.img-titulo{
+    filter: brightness(0) invert(1);
+    max-width: 100%;
+    border-style: none;
+
+}
+.lista-motorola{
+    text-align: left;
+    padding-left: 0;
+    font-size: 12px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.descricao{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    list-style: disc;
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 81%;
+    display: list-item;
+    text-align: left;
+}
+.descricao::marker{
+  
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.motorola-direita{
+    width: 50%;
+    background: transparent!important;
+    margin-bottom: 26px;
+    margin-top: 15px;
+    display: flex;
+    
+
+}
+.img-direita{
+    width: 80%;
+    height: auto;
+    max-width: 100%; 
+    border-style: none;
+   display: flex;
+
+}
+
+
+@media only screen and (max-width: 992px ){
+    .nav-item .info-item-menu-text 
+    .navegue{
+       flex-direction: column;
+    }
+    .btn-padrao{
+        display:block;
+    }
+    .inscreva{
+        text-align: center;
+    }
+    .oferta{
+        text-align: center;
+    }
+    .img-final{
+        max-width: 115px;
+        max-height: 115px;
+    }
+    .navegue{
+        display:block;
+    }
+    .accordion{
+        display: block;
+    }
+    .acordion{
+        display: none;
+    }
+}
+@media  only screen and (min-width: 992px){
+    .accordion{
+        display: none;
+    }
+}
+
+
+.form-control{
+    width: 350px;
+}
+.layout-baixo{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 202px;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.pagamentos{
+    margin-top: 150px; 
+}
+
+.letra-grandes{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.img-rede{
+    margin-right: 40px;
+}
+.branco{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.brasil{
+   
+    margin-top: 20px;
+  
+}
+
+#brasil-link{
+   
+    display: block;
+    margin-block-start: 10px; 
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    color: #fff;
+    
+    
+    
+}
+.brasil-link2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    
+} 
+
+.final-1{
+    background: linear-gradient( 0deg ,#001428,#001428,#11365b 90%);
+    padding: 20px 40px;
+    border-top-right-radius: 8px;
+    margin: 0 auto;
+   
+}
+
+.finishe{
+    max-width: 1366px; 
+    margin: 0 auto;
+    display: flex;
+}
+.img-final{
+    width: 100%;
+}
+.inscreva{
+    text-align: left;
+    line-height: 27px;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: -100px;
+}
+.oferta{
+    text-align: left;
+    line-height: 27px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.botao-fim{
+    width: 100%;
+    background-color: #ff554d;
+    border-color: #ff554d;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: 500;
+    text-transform: none;
+   
+    margin-top: 20px;
+    
+
+}
+.btn-fim{
+    color: white;
+    text-decoration: none;
+
+}
+.lista-acord{
+    list-style: none;
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    background-color: #001428;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #001428;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}

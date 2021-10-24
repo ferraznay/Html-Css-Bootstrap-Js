@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background: #0C2939;
+    text-align: center;
+    color:black;
+           
+}
+
+header, footer, nav, section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header, footer{
+   
+    width: 1160px;
+    height: 100px;
+    line-height: 71px;
+    
+}
+
+main{
+   
+    display: flex;
+    width: 1160px;
+    margin: 5px auto;
+    padding: 0px;
+    margin-top: auto;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+nav, section{
+    background-color: white;
+    height: 800px;
+   
+    overflow: none;
+    border-radius: 5px ;
+    
+    
+      
+}
+
+
+section {
+    width: 880px;
+           
+}
+
+
+
+nav {
+    width: 270px;
+  
+  }
+  
+
+
+.voltar {
+    font-size: 20px;
+    color: black;
+    width: auto;
+    font-style: italic;
+    
+}
+
+.coluna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+} 
+
+.destaque{
+   
+    font-size: 20px;
+
+}
+.audio{
+    float: center; 
+    width: 200px;
+
+}
+.game{
+    margin: 0 auto;
+}
+
+.inicio{
+   background-color: rgba(32, 87, 102, 0.43);
+   width: auto;
+   height: 60px;
+   font-size: 35px;
+   font-style: oblique;
+   text-align: center;
+}

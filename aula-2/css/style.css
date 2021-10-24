@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Zen+Loop&display=swap');
+body{
+    background-color: rgb(240, 219, 219);
+}
+
+h1{
+    text-decoration: underline;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+}
+
+h4{
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+input:focus {
+    background-color: rgb(238, 191, 191);
+    font-family: 'Zen Loop', cursive;
+}
+
+
+textarea{
+    resize: vertical;
+   }
+
+
+
+button:hover{
+    background-color: rgb(247, 150, 150);
+}

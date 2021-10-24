@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contato</title>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Zen+Loop&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/aula-2/css/style.css">
+
+    </head>
+        <body>
+            <form>
+                <h1 style="text-align: center">Formulário de Contato</h1>
+                <br><br>
+                <label for="nomeID" style="font-family: 'Zen Loop', cursive; font-size: 25px;" > <b>Nome:</b> </label>
+                <input type="text" name="nome" id="nomeID" placeholder="Digite seu nome" required/>
+                <br><br>
+                <label for="sobrenomeID" style="font-family: 'Zen Loop', cursive; font-size: 25px;"> <b>Sobrenome:</b> </label>
+                <input type="text" name="sobrenome" id="sobrenomeID" placeholder="Digite seu sobrenome" required/>
+                <br><br>
+                <label for="emailID" style="font-family: 'Zen Loop', cursive; font-size: 25px;"> <b>E-mail:</b> </label>
+                <input type="email" name="email" id="emailID" placeholder="Digite seu e-mail" required/>
+                <br>
+
+                
+                <h4>Gênero:</h4> 
+                
+                <input type="radio" id="masculinoId"  name="sexo" value="masculino"/>
+                <label for="masculinoId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Masculino</label>
+                <br>
+                <input type="radio" id="femininoId" name="sexo" value="feminino" id="Feminino"> 
+                <label for="femininoId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Feminino</label>
+                <br>
+                <input type="radio" id="indiferenteId" name="sexo" value="indiferente" id="Indiferente"> 
+                <label for="indiferenteId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Prefiro não responder</label>
+                <br><br>
+
+                <h4>Qual é seu Passatempos:</h4>
+                <input type="checkbox" id="malharId" name="hobbies" value="Malhar"/>
+                <label for="malharId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Malhar</label> 
+                <br>
+                <input type="checkbox" id="dançarId" name="hobbies" value="Dançar"/>
+                <label for="dançarId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Dançar</label> 
+                <br>
+                <input type="checkbox" id="jogarId" name="hobbies" value="jogar"/>
+                <label for="jogarId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Jogar Video-Game</label> 
+                <br>
+                <input type="checkbox" id="lerId" name="hobbies" value="Ler"/>
+                <label for="lerId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Ler um bom livro</label> 
+                <br>
+                <input type="checkbox" id="assistirId" name="hobbies" value="assistir"/>
+                <label for="assistirId" style="font-family: 'Zen Loop', cursive; font-size: 25px;">Assistir filmes e séries</label> 
+                
+                <br><br>
+                <h4>Assunto da mensagem:</h4>
+                
+                <select name="assunto" required>
+                    <option value="">Selecione o assunto</option>
+                        <option value="Msg">Mensagem</option>
+                        <option value="Sac">Deixe o seu contato</option>
+                    </select>
+                    <br><br>
+
+                    <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Excluir</button>
+            </form>
+        </body>
+
+
+</html>

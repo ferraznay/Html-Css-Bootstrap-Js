@@ -1,0 +1,70 @@
+.container{
+    background-color: cornflowerblue;
+    border: 5px solid;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    align-content: center;
+}
+
+
+.lista-container {
+    background-color: #ffffff;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+    height: 65%;
+    flex-direction: column;
+    margin: 10% auto;
+    flex-wrap: wrap;
+}
+
+h4 {
+    height: 1px;
+    
+}
+p{
+    margin-top: 5px;
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+}
+
+.menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+
+.menu-item::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-size: 40px;
+    position: absolute; 
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 5px;
+    align-content: flex-end;
+}
+
+.netflix::before{
+    background-image: url(/aula-3/image/netflix.png);
+}
+.prime::before{
+    background-image: url(/aula-3/image/prime.png);
+}
+
+.hbo::before{
+    background-image: url(/aula-3/image/hbo.png);
+}
+
+.spotify::before{
+    background-image: url(/aula-3/image/spotify.png);
+}

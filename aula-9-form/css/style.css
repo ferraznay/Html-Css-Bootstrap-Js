@@ -1,0 +1,13 @@
+.erro{
+    color:red;
+    display: none;
+}
+
+.certo{
+    color: green;
+    display: none;
+}
+
+.btn{
+    margin-top: 15px;
+}

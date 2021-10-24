@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+    background: #0C2939;
+    font-family: 'Playfair Display', serif;
+}
+
+/* em{
+background-color: white;
+} */
+
+
+
+h1 {
+    text-align: center;
+    color:#000000;
+    font-style: italic; 
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+
+ol{
+    font-size: 14px;
+    margin: auto;
+    
+}
+ul{
+    font-size: 14px;
+    list-style-type: none;
+    margin: auto;
+    
+}
+
+p{
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+}
+
+mark:hover{
+    background-color: tomato;
+}
+
+article{
+    background-color: white ;
+    background-position: left;
+    width: 860px;
+    padding: 30px;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 5px auto;
+   
+}
+
+/* footer{
+ 
+    text-align: right;
+    background-color: lightpink;
+    width: 960px;
+    padding: 30px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(0, 255, 200);
+    margin: 20px;
+} */
+/* section{
+    background-color: khaki;
+    width: 960px;
+    padding: 30px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(109, 147, 196);
+    margin: 20px;
+  
+} */
+/* header{
+    background-color: lightgreen;
+    width: 960px;
+    padding: 30px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: lightsalmon;
+    margin: 20px;
+} */
+
+.link{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(6, 6, 241);
+}
+
+  
+header, nav, footer {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+}
+ 
+nav a {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+    margin: 5px;
+}
+ 
+  
